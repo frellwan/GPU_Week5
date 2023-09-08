@@ -1,4 +1,4 @@
-# CUDA at Scale for the Enterprise course project - GPU Week 5 Project
+# CUDA at Scale for the Enterprise course project
 
 ## Description
 
