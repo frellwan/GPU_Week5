@@ -56,6 +56,8 @@ Each individual sample has its own set of solution files in its directory:
 To build/examine all the samples at once, the complete solution files should be used. To build/examine a single sample, the individual sample solution files should be used.
 > **Note:** Some samples require that the Microsoft DirectX SDK (June 2010 or newer) be installed and that the VC++ directory paths are properly set up (**Tools > Options...**). Check DirectX Dependencies section for details."
 
+run program by typing ./MeanStdNPP at the command line in the main directory. The program assumes the folder structure of this project and will read the .jpg files from the img folder, do the computations and save the modified images to the std_img folder.
+
 ### Linux
 The Linux samples are built using makefiles. To use the makefiles, change the current directory to the sample directory you wish to build, and run make:
 ```
@@ -75,3 +77,5 @@ The samples makefiles can take advantage of certain options:
     ```
     $ make SMS="50 60"
     ```
+
+run program by typing ./MeanStdNPP at the command line in the main directory. The program assumes the folder structure of this project and will read the .jpg files from the img folder, do the computations and save the modified images to the std_img folder.
