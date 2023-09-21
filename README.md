@@ -13,8 +13,10 @@ of parameters to a global optimum by making all features have similar ranges. Sm
 the convergence.
 
 The code in this repository uses a subset of the MNIST dataset. It will go through all images in the directory and save
-the standardized image to the ./standard folder using the same name as the original file with an std appended to the
+the standardized image to the ./std_img folder using the same name as the original file with an _meanstd appended to the
 end of the name (before the .)
+
+The log file shows the output of using the 600 images from the MNIST dataset.
 
 ## Key Concepts
 
